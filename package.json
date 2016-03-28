@@ -21,5 +21,11 @@
     "ionic-gulp-scripts-copy": "^1.0.0"
   },
   "name": "native-guide",
-  "description": "native-guide: An Ionic project"
+  "description": "native-guide: An Ionic project",
+  "cordovaPlugins": [
+    "cordova-plugin-camera"
+  ],
+  "cordovaPlatforms": [
+    "ios"
+  ]
 }
